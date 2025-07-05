@@ -2,13 +2,9 @@
 
 A lightweight, modern web application that allows users to take short, topic-specific quizzes. Built with **Next.js (App Router)** and styled with the help of **Claude AI** for consistent, responsive UI using **Tailwind CSS**.
 
----
 
-## 🚀 Live Demo
+## 🚀 Live Demo - ([Link](https://micro-quiz-platform-three.vercel.app/))
 
-([View website](https://micro-quiz-platform-three.vercel.app/))
-
----
 
 ## 🧩 Features
 
