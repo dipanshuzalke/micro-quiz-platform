@@ -1,14 +1,11 @@
 # 📚 Micro Quiz Platform
 
----
 
 A lightweight, modern web application that allows users to take short, topic-specific quizzes. Built with **Next.js (App Router)** and styled with the help of **Claude AI** for consistent, responsive UI using **Tailwind CSS**.
 
----
 
 ## 🚀 Live Demo - ([Link](https://micro-quiz-platform-three.vercel.app/))
 
----
 
 ## 🧩 Features
 
@@ -28,7 +25,6 @@ A lightweight, modern web application that allows users to take short, topic-spe
   - Shows real-time feedback (correct/incorrect).
   - Displays final score and stores result locally.
 
----
 
 ## 📦 Setup Instructions
 
@@ -51,9 +47,6 @@ npm run dev
 
 Then open `http://localhost:3000` in your browser.
 
----
-
----
 
 ## 🧠 Challenges Faced
 
@@ -62,16 +55,13 @@ Then open `http://localhost:3000` in your browser.
 - Ensuring client-side logic (feedback, score) didn't conflict with server-side rendering.
 - Fixed issues around `Link` usage by switching to `<a>` tags inside `Link` for compatibility.
 
----
 
 ## 🤖 AI Coding Tools Used
 
 - **Claude AI**: Used to help generate Tailwind-based layout suggestions and component structure ideas.
 - **ChatGPT (OpenAI)**: Assisted in structuring App Router-based routing logic, `fetch` behavior, and error handling.
-- (Optional) Cursor.ai was not used, but AI-assisted reasoning was applied in architecture and design polish.
-- **Cursor AI**: Used it to fixed build or type error and to give suggestions for code.
+- **Cursor AI**: Used it to fixed build or type error and to give suggestions in code.
 
----
 
 ## 🧪 Testing
 
@@ -80,5 +70,3 @@ Then open `http://localhost:3000` in your browser.
   - Quiz flow and state
   - Score tracking and storage
 - Simple browser-based validation across desktop and mobile screens.
-
----
