@@ -6,7 +6,7 @@ A lightweight, modern web application that allows users to take short, topic-spe
 
 ## 🚀 Live Demo
 
-> _([Link](https://micro-quiz-platform-three.vercel.app/))_
+([View website](https://micro-quiz-platform-three.vercel.app/))
 
 ---
 
