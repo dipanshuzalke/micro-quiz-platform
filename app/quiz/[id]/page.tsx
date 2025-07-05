@@ -52,7 +52,7 @@ export default function QuizPage() {
   }
 
   const question = quiz.questions[current];
-  const progress = ((current + 1) / quiz.questions.length) * 100;
+  const progress = (current / quiz.questions.length) * 100;
 
   const handleAnswer = (option: string) => {
     setSelected(option);
@@ -179,12 +179,14 @@ export default function QuizPage() {
             <div className="mb-8">
               <div className="flex justify-between items-center mb-2">
                 <span className="text-sm font-medium text-gray-600">Progress</span>
-                <span className="text-sm font-medium text-gray-600">{Math.round(progress)}%</span>
+                <span className="text-sm font-medium text-gray-600">
+                  {current} of {quiz.questions.length} completed ({Math.round((current / quiz.questions.length) * 100)}%)
+                </span>
               </div>
-              <div className="w-full bg-gray-200 rounded-full h-3">
+              <div className="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
                 <div
                   className="bg-gradient-to-r from-indigo-500 to-purple-500 h-3 rounded-full transition-all duration-500 ease-out"
-                  style={{ width: `${progress}%` }}
+                  style={{ width: `${(current / quiz.questions.length) * 100}%` }}
                 ></div>
               </div>
             </div>
