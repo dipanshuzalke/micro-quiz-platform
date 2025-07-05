@@ -53,13 +53,11 @@ Then open `http://localhost:3000` in your browser.
 - Understanding how to properly use **App Router** features like `generateMetadata`, dynamic routing, and `fetch` caching strategies.
 - Managing quiz state cleanly without unnecessary re-renders.
 - Ensuring client-side logic (feedback, score) didn't conflict with server-side rendering.
-- Fixed issues around `Link` usage by switching to `<a>` tags inside `Link` for compatibility.
 
 
 ## 🤖 AI Coding Tools Used
 
 - **Claude AI**: Used to help generate Tailwind-based layout suggestions and component structure ideas.
-- **ChatGPT (OpenAI)**: Assisted in structuring App Router-based routing logic, `fetch` behavior, and error handling.
 - **Cursor AI**: Used it to fixed build or type error and to give suggestions in code.
 
 
