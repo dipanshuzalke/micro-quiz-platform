@@ -1,4 +1,8 @@
+'use client';
+
 // app/landing/page.tsx
+import Link from 'next/link';
+
 export default function LandingPage () {
   return (
     <div className='min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50'>
@@ -13,12 +17,12 @@ export default function LandingPage () {
               QuizMaster
             </span>
           </div>
-          <a
+          <Link
             href='/start-quiz'
             className='px-6 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105'
           >
             Start Quiz
-          </a>
+          </Link>
         </div>
       </nav>
 
@@ -45,7 +49,7 @@ export default function LandingPage () {
             </p>
 
             <div className='flex flex-col sm:flex-row gap-4 justify-center mb-16'>
-              <a
+              <Link
                 href='/start-quiz'
                 className='inline-flex items-center px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold text-lg rounded-xl hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'
               >
@@ -63,7 +67,7 @@ export default function LandingPage () {
                   />
                 </svg>
                 Start Quiz Now
-              </a>
+              </Link>
               <button className='inline-flex items-center px-8 py-4 bg-white text-gray-700 font-bold text-lg rounded-xl border-2 border-gray-200 hover:border-indigo-300 hover:bg-indigo-50 transition-all duration-300'>
                 <svg
                   className='w-6 h-6 mr-2'
@@ -278,7 +282,7 @@ export default function LandingPage () {
             Join thousands of learners who are already challenging themselves
             with our interactive quizzes
           </p>
-          <a
+          <Link
             href='/start-quiz'
             className='inline-flex items-center px-8 py-4 bg-white text-indigo-600 font-bold text-lg rounded-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'
           >
@@ -296,7 +300,7 @@ export default function LandingPage () {
               />
             </svg>
             Start Your First Quiz
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -321,27 +325,27 @@ export default function LandingPage () {
               <h3 className='text-lg font-semibold mb-4'>Quick Links</h3>
               <ul className='space-y-2 text-gray-400'>
                 <li>
-                  <a href='/' className='hover:text-white transition-colors'>
+                  <Link href='/' className='hover:text-white transition-colors'>
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href='/start-quiz'
                     className='hover:text-white transition-colors'
                   >
                     Categories
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href='/' className='hover:text-white transition-colors'>
+                  <Link href='/' className='hover:text-white transition-colors'>
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href='/' className='hover:text-white transition-colors'>
+                  <Link href='/' className='hover:text-white transition-colors'>
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -349,24 +353,24 @@ export default function LandingPage () {
               <h3 className='text-lg font-semibold mb-4'>Support</h3>
               <ul className='space-y-2 text-gray-400'>
                 <li>
-                  <a href='/' className='hover:text-white transition-colors'>
+                  <Link href='/' className='hover:text-white transition-colors'>
                     Help Center
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href='/' className='hover:text-white transition-colors'>
+                  <Link href='/' className='hover:text-white transition-colors'>
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href='/' className='hover:text-white transition-colors'>
+                  <Link href='/' className='hover:text-white transition-colors'>
                     Terms of Service
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href='/' className='hover:text-white transition-colors'>
+                  <Link href='/' className='hover:text-white transition-colors'>
                     FAQ
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -52,7 +52,6 @@ export default function QuizPage() {
   }
 
   const question = quiz.questions[current];
-  const progress = (current / quiz.questions.length) * 100;
 
   const handleAnswer = (option: string) => {
     setSelected(option);
